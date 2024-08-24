@@ -1,0 +1,80 @@
+/* Custom Font Family */
+@font-face {
+    font-family: "causten";
+    src: url(./Font/cousten-font/Causten-Black.otf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: "causten";
+    src: url(./Font/cousten-font/Causten-Bold.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "causten";
+    src: url(./Font/cousten-font/Causten-ExtraBold.otf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: "causten";
+    src: url(./Font/cousten-font/Causten-Light.otf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "causten";
+    src: url(./Font/cousten-font/Causten-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "causten";
+    src: url(./Font/cousten-font/Causten-Regular.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "causten";
+    src: url(./Font/cousten-font/Causten-SemiBold.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "core sans c";
+    src: url(./Font/core-sans-c/Fontspring-DEMO-coresansc85.otf);
+    font-weight: 900;
+}
+
+/* Variables */
+:root{
+    --thin_gray: #F6F6F6,
+    --medium_gray: #807D7E,
+    --dark_gray: #3C4242,
+}
+
+/* Common Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    min-width: 86%;
+
+}
+
+header{
+    width: clamp(300px, 100%, 1440px);
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
