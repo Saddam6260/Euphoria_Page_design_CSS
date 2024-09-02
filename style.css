@@ -48,7 +48,9 @@
 }
 
 /* Common Style */
-*{
+*
+*::after
+*::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -62,11 +64,14 @@ li{
 a{
     text-decoration: none;
 }
+
+/* Container */
 .container{
     min-width: 86%;
 
 }
 
+/* Header Section */
 header{
     width: clamp(300px, 100%, 1440px);
     background-color: orange;
